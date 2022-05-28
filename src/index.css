@@ -1,0 +1,18 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #2196f3;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    font-family: fantasy;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-align: center;
+}

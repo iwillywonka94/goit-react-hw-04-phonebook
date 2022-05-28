@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #2196f3;
+  border-bottom: none;
+  background-color: rgb(183, 205, 235);
+}
+
+.label {
+text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.input {
+  padding: 10px;
+  text-align: center;
+  font-family: fantasy;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  text-align: center;
+}

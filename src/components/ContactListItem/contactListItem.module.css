@@ -1,0 +1,40 @@
+.span {
+  margin-right: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #2196f3;
+  align-items: center;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.button_delete {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+  background: #2196f3;
+  border-radius: 5px;
+  font-family: fantasy;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button_delete:hover,
+.button_delete:focus {
+    background-color: white;
+    border: 1px solid #2196f3;
+}
