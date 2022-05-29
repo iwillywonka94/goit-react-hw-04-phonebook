@@ -18,7 +18,7 @@ function App() {
 
   const [filter, setFilter] = useState('');
 
-  const firstRender = useRef(false)
+  const firstRender = useRef(true)
 
   useEffect(() => {
     if (firstRender.current) {
