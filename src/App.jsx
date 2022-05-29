@@ -20,21 +20,6 @@ function App() {
 
   const firstRender = useRef(false)
 
-
-  // useEffect(() => {
-  //   if (firstRender.current) {
-  //     const contacts = localStorage.getItem('contacts');
-  //     const parseContacts = JSON.parse(contacts);
-  //     if (contacts?.length) {
-  //       setContacts(parseContacts);
-  //     }
-  //     firstRender.current = false;
-  //   }
-  //   if (!firstRender.current) {
-  //     localStorage.setItem('contacts', JSON.stringify(contacts));
-  //   }
-  // }, [contacts]);
-
   useEffect(() => {
     if (firstRender.current) {
       const contacts = localStorage.getItem('contacts');
@@ -68,9 +53,8 @@ function App() {
         name,
         number,
       }
-      return {
-        contacts: [...prevState, contact]
-      }
+      return [...prevState, contact]
+      
     })
   }
 
